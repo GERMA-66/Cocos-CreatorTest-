@@ -91,7 +91,7 @@ export default class TestView extends cc.Component {
             cc.log(txt.text);
         });
         cc.resources.load("jsonTest", cc.JsonAsset, (err: Error, json: cc.JsonAsset) => {
-            cc.log(json);
+            cc.log(json.json);
         });
     }
 
